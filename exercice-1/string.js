@@ -68,3 +68,4 @@ console.log("yoda: " + yoda("test un truc"));
 function vlg(str) {
 
 }
+
