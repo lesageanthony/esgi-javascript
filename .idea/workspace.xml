@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85383c09-aa62-46ac-a302-952715b6f5a4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercice-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exercice-1/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="85383c09-aa62-46ac-a302-952715b6f5a4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +11,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="type-check.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="type-check.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercice-2/type-check.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="810">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prototype.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercice-3/prototype.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="819">
+              <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -27,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/exercice-1/string.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="25" lean-forward="true" selection-end-line="89" />
+              <caret line="7" column="25" selection-end-line="89" />
             </state>
           </provider>
         </entry>
@@ -41,6 +47,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/exercice-2/type-check.js" />
+        <option value="$PROJECT_DIR$/exercice-3/prototype.js" />
       </list>
     </option>
   </component>
@@ -81,6 +88,11 @@
               <item name="esgi-javascript" type="b2602c69:ProjectViewProjectNode" />
               <item name="esgi-javascript" type="462c0819:PsiDirectoryNode" />
               <item name="exercice-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esgi-javascript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esgi-javascript" type="462c0819:PsiDirectoryNode" />
+              <item name="exercice-3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -170,16 +182,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536754233375</updated>
-      <workItem from="1536754235513" duration="3794000" />
+      <workItem from="1536754235513" duration="8666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3794000" />
+    <option name="totallyTimeSpent" value="8666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -218,17 +229,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exercice-1/string.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" lean-forward="true" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercice-2/type-check.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercice-1/string.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercice-3/prototype.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
         </state>
       </provider>
     </entry>
