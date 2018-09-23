@@ -1,12 +1,12 @@
 function ucfirst(str) {
-    if (typeof str != 'string')
+    if (typeof str !== 'string')
         return "";
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
-console.log("ucfirst: " + ucfirst("test un truc"));
+console.log("ucfirst: " + ucfirst("test"));
 
 function capitalize(str){
-    if (typeof str != 'string')
+    if (typeof str !== 'string')
         return "";
     return str.split(' ').map(function(str, ing){
         return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
@@ -16,7 +16,7 @@ function capitalize(str){
 console.log("capitalize: " + capitalize("ipsum DOLOR"));
 
 function camelCase(str){
-    if (typeof str != 'string')
+    if (typeof str !== 'string')
         return "";
     var final = str.split(' ').map(function(str, ing){
         return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
@@ -30,7 +30,7 @@ function camelCase(str){
 console.log("camelCase: " + camelCase("ToggleCase is_the cOolest"));
 
 function snake_case(str) {
-    if (typeof str != 'string')
+    if (typeof str !== 'string')
         return "";
     return str.split(' ').map(function(str, ing){
         return str.charAt(0).toLowerCase() + str.slice(1).toLowerCase();
@@ -44,7 +44,7 @@ function prop_access(str) {
 }
 
 function leet(str) {
-    if (typeof str != 'string')
+    if (typeof str !== 'string')
         return "";
     str = str.replace(/a/g, "4");
     str = str.replace(/o/g, "0");
@@ -59,7 +59,7 @@ console.log("leet: " + leet("anaconda un trutu"));
 
 
 function verlan(str) {
-    if (typeof str != 'string')
+    if (typeof str !== 'string')
         return "";
     return str.split(' ').map(function(str, ing){
         var strSplit = str.split("");
@@ -72,7 +72,7 @@ function verlan(str) {
 console.log("verlan: " + verlan("test un truc"));
 
 function yoda(str) {
-    if (typeof str != 'string')
+    if (typeof str !== 'string')
         return "";
     var strSplit = str.split(" ");
     var splitReverse = strSplit.reverse();
@@ -81,9 +81,21 @@ function yoda(str) {
 }
 console.log("yoda: " + yoda("test un truc"));
 
+function prop_access(prop, str){
+    if (typeof str !== 'string')
+        return "";
+    var path = str.split(".");
+    for (var step in path){
+        if (typeof prop[path[step]] !== "undefined")
+            return prop[path[step]];
+        else {
+            prop = undefined;
+            break
+        }
+    }
+}
 
-
-function vlg(str) {
-
+function vig(str) {
+    return "function empty";
 }
 

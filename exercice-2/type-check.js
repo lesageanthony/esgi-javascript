@@ -1,6 +1,6 @@
 
 function type_check_v1(arg, str){
-    if (typeof  arg === null || typeof arg === "undefined" || typeof str != "string")
+    if (typeof  arg === "null" || typeof arg === "undefined" || typeof str !== "string")
         return false;
     if (typeof arg === str){
         return true;
@@ -13,7 +13,7 @@ function type_check_v1(arg, str){
 console.log("V1: " + type_check_v1(1, "number"));
 
 function type_check_v2(arg, obj){
-    if (typeof  arg === null || typeof arg === "undefined" || typeof obj != "object")
+    if (typeof  arg === null || typeof arg === "undefined" || typeof obj !== "object")
         return false;
     if (obj.type) {
         if (typeof arg !== obj.type) {
